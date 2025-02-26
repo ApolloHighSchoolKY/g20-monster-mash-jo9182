@@ -11,4 +11,12 @@ public class Witch extends Monster{
       System.out.println(super.kill());
       return "The victim was turned into a toad. Ribbit ribbit.";
   }
+
+  public String castASpell(){
+    return "The victim dissapears in an inferno. Whoops."
+  }
+
+  public String toString(){
+    return "Bubble, double, toil, and trouble."
+  }
 }

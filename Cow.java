@@ -16,8 +16,13 @@ public class Cow extends Animal
 
     public Cow()
     {
-
+        super(0, true, "moo");
     }
 
 
+    public void kill()
+    {
+		alive = false;
+		System.out.println("The cow has died at " + age + " years old. I will be eating it... yum yum.")
+    }
 }
